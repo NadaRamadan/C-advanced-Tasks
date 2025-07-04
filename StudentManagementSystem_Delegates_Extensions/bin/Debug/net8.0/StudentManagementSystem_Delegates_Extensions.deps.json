@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StudentManagementSystem_Delegates_Extensions/1.0.0": {
+        "runtime": {
+          "StudentManagementSystem_Delegates_Extensions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StudentManagementSystem_Delegates_Extensions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
