@@ -4,7 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Thermometer thermometer = new Thermometer("Cairo");
+            Display display = new Display();
+
+            display.subscriber(thermometer);
+
+            thermometer.setTemprature(30);
+            thermometer.setTemprature(32);
+            thermometer.setTemprature(36);
+            thermometer.setTemprature(36);
+            Console.ReadLine();
+
+
+
+
+
         }
     }
 }
